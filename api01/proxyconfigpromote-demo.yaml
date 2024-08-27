@@ -2,6 +2,7 @@ apiVersion: capabilities.3scale.net/v1beta1
 kind: ProxyConfigPromote
 metadata:
   name: proxyconfigpromote
+  namespace: threescale
 spec:
   productCRName: product1
   production: true
